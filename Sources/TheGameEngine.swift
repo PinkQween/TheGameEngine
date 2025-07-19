@@ -1,4 +1,5 @@
 import Foundation
+import MetalKit
 
 /// TheGameEngine - A cross-platform game engine framework
 public struct TheGameEngine {
