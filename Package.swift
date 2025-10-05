@@ -12,11 +12,15 @@ let package = Package(
             targets: ["TheGameEngine"]
         ),
     ],
+    dependencies: [
+        .package(url: "https://github.com/PinkQween/Math.git", from: "0.3.0")
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "TheGameEngine"
+            name: "TheGameEngine",
+            dependencies: ["Math"]
         ),
         .testTarget(
             name: "TheGameEngineTests",

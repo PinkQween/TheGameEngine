@@ -1,0 +1,15 @@
+{
+  "originHash" : "e5aeabf310a3b3703099d846f3da8f4dd1152e8614a3a9d420bbb66f88906cc4",
+  "pins" : [
+    {
+      "identity" : "math",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/PinkQween/Math.git",
+      "state" : {
+        "revision" : "1b7397c00c10e8d24ff3dc42368cf6a6b32a92c0",
+        "version" : "0.3.0"
+      }
+    }
+  ],
+  "version" : 3
+}
